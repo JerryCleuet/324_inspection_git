@@ -33,8 +33,26 @@ https://github.com/ETML-RRY/324_inspection_git.git
 ### Partie 2 — Exploration de base
 
 1. Combien de branches existent dans le dépôt ? Citez-les.  
+Il y a 7 branches :
+
+        main
+        remotes/origin/HEAD -> origin/main
+        remotes/origin/experiment/dark-mode
+        remotes/origin/feature/header
+        remotes/origin/feature/login
+        remotes/origin/hotfix/typo
+        remotes/origin/main
+
+    Commande : ``git branch --all``
+
 2. Quels sont les **tags** disponibles ? A quoi correspondent-ils ?  
+v0.1 et v0.2 qui correspondent à la version de l'application
+
+    Commande : ``git tag``
+
 3. Quelle est la **branche principale** du projet ?
+
+    C'est la branche main
 
 ### Partie 3 — Historique et commits
 
