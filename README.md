@@ -46,7 +46,7 @@ Il y a 7 branches :
     Commande : ``git branch --all``
 
 2. Quels sont les **tags** disponibles ? A quoi correspondent-ils ?  
-v0.1 et v0.2 qui correspondent à la version de l'application
+    sv0.1 et v0.2 qui correspondent à la version de l'application
 
     Commande : ``git tag``
 
@@ -56,11 +56,34 @@ v0.1 et v0.2 qui correspondent à la version de l'application
 
 ### Partie 3 — Historique et commits
 
-4. Quel est le message du **premier commit** du projet ?  
+4. Quel est le message du **premier commit** du projet ? 
+
+    Le message est ``structure HTML/CSS/JS + README + docs`` 
+    
+    Commande : ``git log`` et descendre tout en bas
 5. Trouvez le commit où une **clé API** a été ajoutée par erreur. Quel est son identifiant (hash court) ?  
+
+    L'identifiant est : ``bea2d1aeaecd11e9c0af36cf6f052f65e82d36c5``
+
+    Commande : ``git log`` et descendre jusqu'à trouver le bon message
+
 6. Quel commit a ensuite corrigé cette erreur ?  
-7. Trouvez le commit où le **titre de la page d'accueil** a été corrigé.  
+
+    Le commit ayant corrigé l'erreur a l'id ``1b682c91ef14cda333419e2e387a53033ae575a1``
+
+    Même commande ``git log``
+
+7. Trouvez le commit où le **titre de la page d'accueil** a été corrigé.
+
+    C'est le commit avec l'id ``6317c073f7514d580522c90fa1f0f0402066a48f (origin/hotfix/typo)``
+
+    Même commande ``git log``
+
 8. Quel est le message du commit qui a **ajouté le fichier `CHANGELOG.md`** et quelle commande avez-vous utilisé ?
+
+    Le message est : ``docs: ajoute un changelog de base``
+
+    Même commande ``git log``
 
 ### Partie 4 — Branches et fusions
 
