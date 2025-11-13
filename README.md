@@ -88,7 +88,25 @@ Il y a 7 branches :
 ### Partie 4 — Branches et fusions
 
 9. Quelles branches ont été fusionnées dans `main` ?  
+
+    Les branches qui ont été fusionnées dans main sont : 
+
+        main
+        remotes/origin/HEAD -> origin/main
+        remotes/origin/feature/header
+        remotes/origin/feature/login
+        remotes/origin/hotfix/typo
+        remotes/origin/main
+
+    Avec la commande : ``git branch --all --merge``
+
 10. Quelle branche **n'a pas été fusionnée** ? Pourquoi, selon vous ? 
+
+    ``remotes/origin/experiment/dark-mode``
+
+    Avec la commande : ``git branch --all --no-merged``
+
+    Selon moi car elle était à but expérimental
 
 ### Partie 5 — Analyse du contenu
 
